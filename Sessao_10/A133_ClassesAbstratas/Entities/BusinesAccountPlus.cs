@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace A125_Heranca.Entities
+namespace A133_ClassesAbstratas.Entities
 {
     class BusinesAccountPlus: BusinesAccount
     {

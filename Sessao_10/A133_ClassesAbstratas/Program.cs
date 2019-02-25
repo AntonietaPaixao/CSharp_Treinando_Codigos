@@ -1,21 +1,22 @@
 ﻿using System;
-using A125_Heranca.Entities;
+using A133_ClassesAbstratas.Entities;
 
-namespace A125_Heranca
+namespace A133_ClassesAbstratas
 {
     class Program
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("ACCOUNT\n");
-            
+
             //HERANÇA
-            BusinesAccount busines = new BusinesAccount(100, "Antonia", 203.50,  300.00);
+            BusinesAccount busines = new BusinesAccount(100, "Antonia", 203.50, 300.00);
             Console.WriteLine("Teste de Herança:");
             Console.WriteLine(busines);
 
             //UPCASTING DOWNCASTING
-            Account acc = new Account(101, "Belmiro", 10000.00); 
+            Account acc = new Account(101, "Belmiro", 10000.00);
             Console.WriteLine("Instanciação de um Account:");
             Console.WriteLine(acc);
 
@@ -47,7 +48,7 @@ namespace A125_Heranca
             bacc1.Loan(50.00);
             Console.WriteLine("BusinesAccount recebendo um Acount que recebeu anteriormente um BusinesAccount:");
             Console.WriteLine(bacc1);
-            
+
             //OBS: Não é possível realizar casting entre Objetos
             //de Classes Filhas de uma mesma Classe Mãe.
             //Ex: BusinesAccount bacc2 = (BusinesAccount)sacc;
@@ -59,3 +60,5 @@ namespace A125_Heranca
         }
     }
 }
+
+

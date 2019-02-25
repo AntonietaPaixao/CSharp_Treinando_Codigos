@@ -1,4 +1,4 @@
-﻿namespace A125_Heranca.Entities
+﻿namespace A133_ClassesAbstratas.Entities
 {
     class BusinesAccount : Account  //:Indicando a extensão da SuperClasse Account
     {

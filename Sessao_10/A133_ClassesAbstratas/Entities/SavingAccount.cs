@@ -1,4 +1,4 @@
-﻿namespace A125_Heranca.Entities
+﻿namespace A133_ClassesAbstratas.Entities
 {
     //sealed indica que a classe está selada
     sealed class SavingAccount : Account 

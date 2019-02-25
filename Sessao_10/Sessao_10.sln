@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A125_Heranca", "A125_Heranc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A130_ExeHerancaCastingSobreposicaoSelamento", "A130_ExeHerancaCastingSobreposicaoSelamento\A130_ExeHerancaCastingSobreposicaoSelamento.csproj", "{0F8F9BE7-8A69-44AC-9186-A708A63455AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A132_ExeHerancaCastingSobreposicaoSelamento", "A132_ExeHerancaCastingSobreposicaoSelamento\A132_ExeHerancaCastingSobreposicaoSelamento.csproj", "{F228BF06-9B74-4F39-8D64-F13EC414FA7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A132_ExeHerancaCastingSobreposicaoSelamento", "A132_ExeHerancaCastingSobreposicaoSelamento\A132_ExeHerancaCastingSobreposicaoSelamento.csproj", "{F228BF06-9B74-4F39-8D64-F13EC414FA7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A135_Classes_Metodos_Abstratos", "A135_Classes_Metodos_Abstratos\A135_Classes_Metodos_Abstratos.csproj", "{E832EA0E-FD23-45DE-8208-15EDA50993AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A136_Ex_Classes_Metodos_Abstratos", "A136_Ex_Classes_Metodos_Abstratos\A136_Ex_Classes_Metodos_Abstratos.csproj", "{37E4C7C7-1DA1-43A6-B2D1-75EF657520CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{F228BF06-9B74-4F39-8D64-F13EC414FA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F228BF06-9B74-4F39-8D64-F13EC414FA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F228BF06-9B74-4F39-8D64-F13EC414FA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E832EA0E-FD23-45DE-8208-15EDA50993AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E832EA0E-FD23-45DE-8208-15EDA50993AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E832EA0E-FD23-45DE-8208-15EDA50993AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E832EA0E-FD23-45DE-8208-15EDA50993AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E4C7C7-1DA1-43A6-B2D1-75EF657520CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E4C7C7-1DA1-43A6-B2D1-75EF657520CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E4C7C7-1DA1-43A6-B2D1-75EF657520CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E4C7C7-1DA1-43A6-B2D1-75EF657520CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
